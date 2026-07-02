@@ -1,9 +1,14 @@
-name: date_x
-description: A flexible date formatting and conversion package with optional BLoC support.
-version: 0.2.0
+name: format_date_x
+description: >-
+  Convert and format dates easily in Dart/Flutter. Supports ISO, US, EU,
+  custom formats, string extensions, and optional BLoC integration.
+version: 1.0.0
 homepage: https://github.com/Hetvikakkad/date_x
 repository: https://github.com/Hetvikakkad/date_x
 issue_tracker: https://github.com/Hetvikakkad/date_x/issues
+documentation: https://github.com/Hetvikakkad/date_x#readme
+
+license: MIT
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -16,3 +21,10 @@ dev_dependencies:
   test: ^1.24.0
   bloc_test: ^9.1.4
   lints: ^3.0.0
+
+topics:
+  - date
+  - datetime
+  - formatting
+  - intl
+  - bloc

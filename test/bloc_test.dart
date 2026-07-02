@@ -1,5 +1,5 @@
 import 'package:bloc_test/bloc_test.dart';
-import 'package:date_x/date_x_bloc.dart';
+import 'package:format_date_x/date_x_bloc.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.3
-  date_x:
+  format_date_x:
     path: ../
 
 dev_dependencies:

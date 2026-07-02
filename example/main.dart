@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:date_x/date_x.dart';
-import 'package:date_x/date_x_bloc.dart';
+import 'package:format_date_x/date_x.dart';
+import 'package:format_date_x/date_x_bloc.dart';
 
 void main() {
   runApp(const DateXExampleApp());
