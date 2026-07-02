@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:format_date_x/date_x.dart';
-import 'package:format_date_x/date_x_bloc.dart';
+import 'package:format_date_x/format_date_x.dart';
+import 'package:format_date_x/format_date_x_bloc.dart';
 
 void main() {
   runApp(const DateXExampleApp());
@@ -13,7 +13,7 @@ class DateXExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'date_x Example',
+      title: 'format_date_x Example',
       home: BlocProvider(
         create: (_) => DateXBloc(),
         child: const DateXExamplePage(),
@@ -85,7 +85,7 @@ class _DateXExamplePageState extends State<DateXExamplePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('date_x Example')),
+      appBar: AppBar(title: const Text('format_date_x Example')),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

@@ -1,4 +1,4 @@
-import 'package:format_date_x/date_x.dart';
+import 'package:format_date_x/format_date_x.dart';
 import 'package:test/test.dart';
 
 void main() {

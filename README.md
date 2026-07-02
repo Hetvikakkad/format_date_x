@@ -26,7 +26,7 @@ For date conversion only, that is all you need. The core package depends only on
 ### Date conversion (recommended import)
 
 ```dart
-import 'package:format_date_x/date_x.dart';
+import 'package:format_date_x/format_date_x.dart';
 
 // Core API
 DateX.convert('2024-01-15', 'iso→display'); // 15 Jan 2024
@@ -49,7 +49,7 @@ DateX.isValid('2024-01-15', 'iso');         // true
 Only import BLoC when you need reactive date operations. Your app already uses `flutter_bloc` for UI — `format_date_x` does not force a conflicting version.
 
 ```dart
-import 'package:format_date_x/date_x_bloc.dart';
+import 'package:format_date_x/format_date_x_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 BlocProvider(
@@ -64,10 +64,10 @@ BlocProvider(
 
 | Goal | Import |
 |------|--------|
-| Convert / format dates only | `package:format_date_x/date_x.dart` |
-| BLoC state management | `package:format_date_x/date_x_bloc.dart` |
+| Convert / format dates only | `package:format_date_x/format_date_x.dart` |
+| BLoC state management | `package:format_date_x/format_date_x_bloc.dart` |
 
-Importing only `date_x.dart` keeps your dependency tree minimal (`intl` only) and avoids version clashes with `flutter_bloc`, `equatable`, or other packages in your app.
+Importing only `format_date_x.dart` keeps your dependency tree minimal (`intl` only) and avoids version clashes with `flutter_bloc`, `equatable`, or other packages in your app.
 
 ## License
 

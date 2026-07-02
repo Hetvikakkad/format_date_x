@@ -1,7 +1,7 @@
 /// Core date conversion API — safe to import alongside other packages.
 ///
-/// For BLoC support, use `package:format_date_x/date_x_bloc.dart` separately.
-library date_x;
+/// For BLoC support, use `package:format_date_x/format_date_x_bloc.dart` separately.
+library format_date_x;
 
 export 'src/built_in_formats.dart';
 export 'src/date_formatter.dart';
