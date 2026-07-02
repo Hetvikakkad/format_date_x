@@ -2,7 +2,7 @@ name: format_date_x
 description: >-
   Convert and format dates easily in Dart/Flutter. Supports ISO, US, EU,
   custom formats, string extensions, and optional BLoC integration.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Hetvikakkad/format_date_x
 repository: https://github.com/Hetvikakkad/format_date_x
 issue_tracker: https://github.com/Hetvikakkad/format_date_x/issues

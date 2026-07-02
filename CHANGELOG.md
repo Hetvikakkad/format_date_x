@@ -1,3 +1,8 @@
+## 1.0.1
+
+* Renamed entry files to `format_date_x.dart` and `format_date_x_bloc.dart`.
+* Updated GitHub repository links to `format_date_x`.
+
 ## 1.0.0
 
 * Renamed package and entry files to `format_date_x` (name `date_x` was already taken on pub.dev).

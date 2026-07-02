@@ -16,7 +16,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  format_date_x: ^1.0.0
+  format_date_x: ^1.0.1
 ```
 
 For date conversion only, that is all you need. The core package depends only on `intl` and works in Dart or Flutter apps without pulling in BLoC or Flutter SDK constraints.
